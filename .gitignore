@@ -14,6 +14,12 @@ bin
 build
 callgrind.out*
 
+# build_scripts output (scripts themselves are tracked):
+build_scripts/build-*
+build_scripts/install-*
+build_scripts/dist
+build_scripts/.pack
+
 # in case someone runs an in-source build:
 CMakeCache.txt
 cmake_install.cmake
